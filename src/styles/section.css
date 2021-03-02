@@ -1,0 +1,76 @@
+section.Section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ItemImage {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+@media (max-width: 480px) {
+    .ItemImage {
+        display: none;
+    }
+}
+
+.ItemName {
+    margin: 0;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.PriceBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 auto;
+}
+
+input.PriceInput {
+    width: 40px;
+    height: 30px;
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid #333;
+
+    -webkit-appearance: none;
+}
+
+/* hide the input number default arrows */
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.PriceDecrement,
+.PriceIncrement {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.PriceDecrement {
+    background-image: url("./../icons/minus.png");
+}
+
+.PriceIncrement {
+    background-image: url("./../icons/plus.png");
+}
+
+.PriceTag {
+    width: 90px;
+    text-align: right;
+    flex-shrink: 0;
+}

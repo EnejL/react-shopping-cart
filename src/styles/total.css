@@ -1,0 +1,9 @@
+.TotalSumWrapper {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.TotalSumWrapper p {
+    margin: 0;
+}
