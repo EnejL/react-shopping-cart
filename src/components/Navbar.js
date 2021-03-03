@@ -20,7 +20,7 @@ export const Navbar = ({user}) => {
 				<div className="navbar-collapse collapse">
 					<ul className="nav navbar-nav">
 						<li><a href="/">Home</a></li>
-						<li><button onClick={() => setShow(true)}>Buy</button></li>
+						<li><a href="#" onClick={() => setShow(true)}>Buy</a></li>
 						<Modal show={show} close={closeModalHandler} />
 					</ul>
 					<span className="navbar-right navbar-text">{user?.balance} gold</span>

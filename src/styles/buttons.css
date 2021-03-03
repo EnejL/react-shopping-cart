@@ -2,9 +2,8 @@
     border: none;
     border-radius: 0;
     width: 100%;
-    height: 100%;
+    height: 40px;
     max-width: 100px;
-    max-height: 40px;
 }
 
 .BtnExit {
@@ -18,10 +17,7 @@
 }
 
 .BtnSubmit {
-    background-color: blue;
+    background-color: #2a77b4;
     color: white;
-}
-
-.BtnCancel {
-    margin-left: 10px !important;
+    margin-right: 10px;
 }
