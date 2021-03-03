@@ -1,9 +1,3 @@
-/* Imports */
-@import "./section.css";
-@import "./buttons.css";
-@import "./total.css";
-
-
 .ModalWrapper {
     position: fixed;
     justify-content: center;

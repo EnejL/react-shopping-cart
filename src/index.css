@@ -1,15 +1,11 @@
 /* IMPORTS */
 
-@import './styles/modal.css';
+@import './components/Modal/modal.css';
+@import "./components/Modal/section.css";
+@import "./styles/buttons.css";
+@import "./styles/total.css";
 
 /* General styling */
-
-/* TEMPORARY OVERRIDE */
-
-.collapse {
-	display: block !important;
-}
-
 body {
 	padding-top: 50px;
 	padding-bottom: 20px;

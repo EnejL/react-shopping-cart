@@ -36,19 +36,6 @@ input.PriceInput {
     margin: 0 10px;
     text-align: center;
     border: 1px solid #e7e7e7;
-
-    -webkit-appearance: none;
-}
-
-/* hide the input number default arrows */
-
-input[type='number'] {
-    -moz-appearance:textfield;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
 }
 
 .PriceDecrement,
@@ -62,15 +49,26 @@ input::-webkit-inner-spin-button {
 }
 
 .PriceDecrement {
-    background-image: url("./../icons/minus.png");
+    background-image: url("./../../icons/minus.png");
 }
 
 .PriceIncrement {
-    background-image: url("./../icons/plus.png");
+    background-image: url("./../../icons/plus.png");
 }
 
 .PriceTag {
     width: 90px;
     text-align: right;
     flex-shrink: 0;
+}
+
+/* hide the input number default arrows */
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
